@@ -1,0 +1,55 @@
+# AGENTS.md
+
+## Project Goal
+Build PromptForge, a SaaS prompt builder for creating, saving, sharing, and reusing structured AI prompts across multiple AI engines.
+
+## Tech Stack
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Prisma
+- PostgreSQL
+- NextAuth
+
+## Development Rules
+- Keep the UI clean, modern, and simple.
+- Prioritize working MVP features before advanced features.
+- Use reusable components.
+- Use TypeScript types everywhere.
+- Keep database schema clear and scalable.
+- Add comments only where helpful.
+- Do not add unnecessary dependencies.
+- Run linting and type checks before completing a task.
+
+## Initial MVP Pages
+- Dashboard
+- Prompt Builder
+- Template Library
+- Style Profiles
+- Settings
+- AI Comparison placeholder
+
+## Prompt Builder Requirements
+Users should be able to define:
+- Role/persona
+- Task objective
+- Context
+- Tone/personality
+- Detail level
+- Output format
+- Constraints
+- Examples
+- Variables
+
+## Template Requirements
+Users should be able to:
+- Save templates
+- Edit templates
+- Duplicate templates
+- Delete templates
+- Favorite templates
+- Organize with folders and tags
+
+## Output Style
+Use a modern SaaS interface with card layouts, sidebar navigation, light/dark mode support, and responsive design.
